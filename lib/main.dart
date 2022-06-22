@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'MyTextBox.dart';
 
 void main() => runApp(const MaterialApp(
@@ -183,6 +182,18 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
+            const Text("Made by:",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontFamily: "Lato",
+            ),),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: const <Widget>[
+                Text("Name:  Hitesh Aggarwal"),
+                Text("Roll No:  102103596"),
+              ],
+            )
           ],
         ),
       ),
