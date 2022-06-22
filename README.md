@@ -1,3 +1,3 @@
 # sip_calculator
 
-This app calculates compound interest
+This app calculates the Amount over a period of time Compounded periodically, given the Principal and Rate of Interest.
